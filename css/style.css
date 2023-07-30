@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   margin: 0;
   overflow-x: hidden;
@@ -26,7 +26,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
   }
-  
+
   nav,
   main {
     overflow-y: auto;
@@ -66,7 +66,7 @@ kbd,
 samp {
   background-color: #e3e3e3;
   border-radius: 4px;
-  font-family: 'Roboto Mono', Consolas, monaco, monospace;
+  font-family: "Roboto Mono", Consolas, monaco, monospace;
   padding: 0 4px;
 }
 

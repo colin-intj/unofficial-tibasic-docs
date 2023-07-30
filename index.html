@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>TI-BASIC 83</title>
-    <link rel='stylesheet'
-        href='https://fonts.googleapis.com/css2?family=Roboto&amp;family=Roboto+Mono&amp;display=swap'>
-    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto&amp;family=Roboto+Mono&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <script
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
-        defer></script>
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      defer
+    ></script>
     <script src="./js/script.js" defer></script>
   </head>
   <body>
@@ -17,30 +20,59 @@
         <h1>TI-BASIC 83</h1>
       </header>
       <ol>
-        <li><a href="#welcome_to_ti-basic_83" class="nav-link">Welcome to
-            TI-BASIC 83</a></li>
-        <li><a href="#supported_calculators" class="nav-link">Supported
-            Calculators</a></li>
-        <li><a href="#what_you_should_already_know" class="nav-link">What You
-            Should Already Know</a></li>
-        <li><a href="#the_program_menu_and_creating_new_programs"
-              class="nav-link">The Program Menu and Creating New Programs</a>
+        <li>
+          <a href="#welcome_to_ti-basic_83" class="nav-link"
+            >Welcome to TI-BASIC 83</a
+          >
         </li>
-        <li><a href="#entering_commands_and_statements"
-              class="nav-link">Entering Commands and Statements</a></li>
+        <li>
+          <a href="#supported_calculators" class="nav-link"
+            >Supported Calculators</a
+          >
+        </li>
+        <li>
+          <a href="#what_you_should_already_know" class="nav-link"
+            >What You Should Already Know</a
+          >
+        </li>
+        <li>
+          <a href="#the_program_menu_and_creating_new_programs" class="nav-link"
+            >The Program Menu and Creating New Programs</a
+          >
+        </li>
+        <li>
+          <a href="#entering_commands_and_statements" class="nav-link"
+            >Entering Commands and Statements</a
+          >
+        </li>
         <li><a href="#hello_world" class="nav-link">Hello World</a></li>
-        <li><a href="#data_types_and_variables" class="nav-link">Data Types and
-            Variables</a></li>
-        <li><a href="#assignment_statements" class="nav-link">Assignment
-            Statements</a></li>
-        <li><a href="#comparison_and_logical_operators"
-              class="nav-link">Comparison and Logical Operators</a></li>
+        <li>
+          <a href="#data_types_and_variables" class="nav-link"
+            >Data Types and Variables</a
+          >
+        </li>
+        <li>
+          <a href="#assignment_statements" class="nav-link"
+            >Assignment Statements</a
+          >
+        </li>
+        <li>
+          <a href="#comparison_and_logical_operators" class="nav-link"
+            >Comparison and Logical Operators</a
+          >
+        </li>
         <li><a href="#conditionals" class="nav-link">Conditionals</a></li>
         <li><a href="#for-loops" class="nav-link">For-Loops</a></li>
-        <li><a href="#while_and_repeat-loops" class="nav-link">While and
-            Repeat-Loops</a></li>
-        <li><a href="#variable_scope_and_deleting_variables"
-              class="nav-link">Variable Scope and Deleting Variables</a></li>
+        <li>
+          <a href="#while_and_repeat-loops" class="nav-link"
+            >While and Repeat-Loops</a
+          >
+        </li>
+        <li>
+          <a href="#variable_scope_and_deleting_variables" class="nav-link"
+            >Variable Scope and Deleting Variables</a
+          >
+        </li>
         <li><a href="#references" class="nav-link">References</a></li>
       </ol>
     </nav>
@@ -49,12 +81,15 @@
         <header>
           <h2>Welcome to TI-BASIC 83</h2>
         </header>
-        <p><strong>TI-BASIC 83</strong> (also called <strong>TI-BASIC</strong>
-          for short) is a built-in interpreted programming language for the
-          TI-83 series calculators. These calculators also come with a built-in
-          code editor for writing TI-BASIC programs. Besides the TI-84 Plus CE
-          Python Edition, which also has a Python editor, TI-BASIC is the only
-          language that users can program directly on these calculators.</p>
+        <p>
+          <strong>TI-BASIC 83</strong> (also called
+          <strong>TI-BASIC</strong> for short) is a built-in interpreted
+          programming language for the TI-83 series calculators. These
+          calculators also come with a built-in code editor for writing TI-BASIC
+          programs. Besides the TI-84 Plus CE Python Edition, which also has a
+          Python editor, TI-BASIC is the only language that users can program
+          directly on these calculators.
+        </p>
       </section>
       <section id="supported_calculators" class="main-section">
         <header>
@@ -83,12 +118,15 @@
           <li>The <kbd>2ND</kbd> and <kbd>ALPHA</kbd> keys</li>
         </ul>
       </section>
-      <section id="the_program_menu_and_creating_new_programs"
-          class="main-section">
+      <section
+        id="the_program_menu_and_creating_new_programs"
+        class="main-section"
+      >
         <header>
           <h2>The Program Menu and Creating New Programs</h2>
         </header>
-        <p>To create your first TI-BASIC program, you must first access the
+        <p>
+          To create your first TI-BASIC program, you must first access the
           program menu by pressing the <kbd>PRGM</kbd> button. The program menu
           has three submenus: <samp>EXEC</samp>, <samp>EDIT</samp>, and
           <samp>NEW</samp>, which allow you to execute, edit, and create
@@ -104,7 +142,8 @@
         <header>
           <h2>Entering Commands and Statements</h2>
         </header>
-        <p>Unlike other languages, where you must type each command, TI-BASIC
+        <p>
+          Unlike other languages, where you must type each command, TI-BASIC
           requires you to insert them from the program menu, which you can
           access by pressing <kbd>PGRM</kbd>. The program menu has three
           submenus: <samp>CTL</samp>, <samp>I/O</samp>, and <samp>EXEC</samp>.
@@ -114,16 +153,23 @@
           your calculator. Selecting a program from the <samp>EXEC</samp>
           submenu allows you to run it from within your program.
         </p>
-        <p>Each statement in TI-BASIC starts with a colon, and in most cases,
-          you don't have to insert them manually. There are two ways to begin a
-          new statement in TI-BASIC:</p>
+        <p>
+          Each statement in TI-BASIC starts with a colon, and in most cases, you
+          don't have to insert them manually. There are two ways to begin a new
+          statement in TI-BASIC:
+        </p>
         <ul>
           <li>Pressing ENTER (which also creates a new line of code)</li>
           <li>Add a colon to the end of the current line of code</li>
         </ul>
-        <p><b>Here's an example of both ways to create new statements—don't
-            worry about not understanding this program, the following sections
-            will teach you more about the many commands TI-BASIC offers:</b></p>
+        <p>
+          <b
+            >Here's an example of both ways to create new statements—don't worry
+            about not understanding this program, the following sections will
+            teach you more about the many commands TI-BASIC offers:</b
+          >
+        </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:Disp "STATEMENT 1"
           :Disp "STATEMENT 2":Disp "STATEMENT 3"
         </code>
@@ -132,8 +178,10 @@
         <header>
           <h2>Hello World</h2>
         </header>
-        <p>Students learning a new programming language often begin by writing a
-          program that prints "Hello, World!" to the screen.</p>
+        <p>
+          Students learning a new programming language often begin by writing a
+          program that prints "Hello, World!" to the screen.
+        </p>
         <p><b>In TI-BASIC, such a program looks like this:</b></p>
         <code class="code-block">:Disp "HELLO, WORLD!"</code>
         <aside>
@@ -143,26 +191,34 @@
             <li>Go to the <samp>PRB</samp> submenu</li>
             <li>Press <kbd>4</kbd> to insert an exclamation mark</li>
           </ol>
-          <p>It's also worth mentioning that you can use exclamation marks to
-            calculate factorials.</p>
+          <p>
+            It's also worth mentioning that you can use exclamation marks to
+            calculate factorials.
+          </p>
         </aside>
-        <p>After you write this program, exit the code editor and run this
-          program to see the output.</p>
+        <p>
+          After you write this program, exit the code editor and run this
+          program to see the output.
+        </p>
       </section>
       <section id="data_types_and_variables" class="main-section">
         <header>
           <h2>Data Types and Variables</h2>
         </header>
-        <p>TI-BASIC is a strongly-typed language, meaning that the variable's
+        <p>
+          TI-BASIC is a strongly-typed language, meaning that the variable's
           type must be part of its declaration. But unlike other strongly-typed
           languages, such as Java and C++, TI-BASIC doesn't have variable type
           keywords such as <code>int</code> and <code>double</code>, instead,
           the variable names themselves determine which data type they can
           store. TI-BASIC has four data types that you can directly modify
-          within your programs: numbers, lists, matrices, and strings.</p>
+          within your programs: numbers, lists, matrices, and strings.
+        </p>
         <table>
-          <caption><b>Table.</b> TI-BASIC data types, descriptions, and
-            designated variable names</caption>
+          <caption>
+            <b>Table.</b>
+            TI-BASIC data types, descriptions, and designated variable names
+          </caption>
           <tr>
             <th>Data Type</th>
             <th>Description</th>
@@ -170,70 +226,88 @@
           </tr>
           <tr>
             <td>Number</td>
-            <td>Numbers can be either real or complex. Real numbers can store up
+            <td>
+              Numbers can be either real or complex. Real numbers can store up
               to 14 digits, but the calculator only displays the first 10. These
               first ten digits are also the only ones used in comparisons.
               Complex numbers store 2 consecutive real numbers, representing the
-              real and imaginary parts.</td>
+              real and imaginary parts.
+            </td>
             <td><code>A</code>–<code>Z</code> and <code>θ</code></td>
           </tr>
           <tr>
             <td>List</td>
-            <td>Lists are sets of numbers enclosed in braces. On most
-              calculators, they can store up to 999 elements, but on TI-83s,
-              they have a maximum length of 99. Unlike other TI-BASIC data
-              types, lists can have custom names. Custom list names must be less
-              than or equal to 6 characters, and the first character must be the
+            <td>
+              Lists are sets of numbers enclosed in braces. On most calculators,
+              they can store up to 999 elements, but on TI-83s, they have a
+              maximum length of 99. Unlike other TI-BASIC data types, lists can
+              have custom names. Custom list names must be less than or equal to
+              6 characters, and the first character must be the
               <code>∟</code> symbol—which you can enter by pressing
-              <kbd>2ND</kbd> + <kbd>STAT</kbd> + <kbd>→</kbd> + <kbd>ALPHA</kbd>
-              + <kbd>APPS</kbd>.
+              <kbd>2ND</kbd> + <kbd>STAT</kbd> + <kbd>→</kbd> +
+              <kbd>ALPHA</kbd> + <kbd>APPS</kbd>.
             </td>
-            <td><code>L<sub>1</sub></code>–<code>L<sub>6</sub></code> (You can
-              access these symbols through the <samp>LIST</samp> menu), or
-              custom name. </td>
+            <td>
+              <code>L<sub>1</sub></code
+              >–<code>L<sub>6</sub></code> (You can access these symbols through
+              the <samp>LIST</samp> menu), or custom name.
+            </td>
           </tr>
           <tr>
             <td>Matrix</td>
-            <td>Matrices are two-dimensional lists with a maximum size of 99×99
+            <td>
+              Matrices are two-dimensional lists with a maximum size of 99×99
               (or 9801 elements). The entire matrix, as well as each row, is
               enclosed in brackets. Matrices use more memory than lists, and,
-              unlike lists, they cannot store complex numbers. </td>
-            <td><code>[A]</code>–<code>[J]</code> (You can access these symbols
-              through the <samp>MATRIX</samp> menu).</td>
+              unlike lists, they cannot store complex numbers.
+            </td>
+            <td>
+              <code>[A]</code>–<code>[J]</code> (You can access these symbols
+              through the <samp>MATRIX</samp> menu).
+            </td>
           </tr>
           <tr>
             <td>String</td>
-            <td>Strings are sequences of characters enclosed in parentheses.
+            <td>
+              Strings are sequences of characters enclosed in parentheses.
               Unlike the other data types, Strings can hold as many characters
-              as the calculator's RAM allows.</td>
-            <td><code>Str1</code>–<code>Str0</code> (You can access these
-              symbols through the <samp>STRING</samp> menu by pressing
-              <kbd>VARS</kbd> + <kbd>7</kbd>).
+              as the calculator's RAM allows.
+            </td>
+            <td>
+              <code>Str1</code>–<code>Str0</code> (You can access these symbols
+              through the <samp>STRING</samp> menu by pressing <kbd>VARS</kbd> +
+              <kbd>7</kbd>).
             </td>
           </tr>
         </table>
         <aside>
-          <p>TI-BASIC has two other data types, <em>Pictures</em> and <em><abbr
-                  title="Graph DataBase">GDBs</abbr></em>. Pictures store the
-            appearance of the graph screen, and GDBs store settings related to
-            it—such as equations and window settings. These two data types are
-            beyond the scope of this guide; to learn more about them, read <a
-                href="http://tibasicdev.wikidot.com/pictures">this tutorial by
-              <i>TI-Basic Developer</i>.</a></p>
+          <p>
+            TI-BASIC has two other data types, <em>Pictures</em> and
+            <em><abbr title="Graph DataBase">GDBs</abbr></em
+            >. Pictures store the appearance of the graph screen, and GDBs store
+            settings related to it—such as equations and window settings. These
+            two data types are beyond the scope of this guide; to learn more
+            about them, read
+            <a href="http://tibasicdev.wikidot.com/pictures"
+              >this tutorial by <i>TI-Basic Developer</i>.</a
+            >
+          </p>
         </aside>
       </section>
       <section id="assignment_statements" class="main-section">
         <header>
           <h2>Assignment Statements</h2>
         </header>
-        <p>Assignment statements in TI-BASIC have a unique structure. Unlike
-          most programming languages, assignment statements in TI-BASIC place
-          the variable's name <em>after</em> its value. Also, whereas most
-          languages use the equal sign as an assignment operator, TI-BASIC uses
-          the <code>→</code> symbol, which you can enter by pressing the
+        <p>
+          Assignment statements in TI-BASIC have a unique structure. Unlike most
+          programming languages, assignment statements in TI-BASIC place the
+          variable's name <em>after</em> its value. Also, whereas most languages
+          use the equal sign as an assignment operator, TI-BASIC uses the
+          <code>→</code> symbol, which you can enter by pressing the
           <kbd>STO›</kbd> button.
         </p>
         <p><b>Here are some examples of TI-BASIC assignment statements:</b></p>
+        <!-- prettier-ignore -->
         <code class="code-block">:42→N
           :{1,1,2}→L<sub>1</sub>
           :[[1,1,2][3,5,8]]→[A]
@@ -244,14 +318,18 @@
         <header>
           <h2>Comparison and Logical Operators</h2>
         </header>
-        <p>TI-BASIC has six comparison and four logical operators. You can
-          access them through the <samp>TEST</samp> menu, which has two
-          submenus, <samp>TEST</samp> and <samp>LOGIC</samp>. The submenus
-          contain comparison and logical operators, respectively. The table
-          below displays each operator, their name, and an example of each:</p>
+        <p>
+          TI-BASIC has six comparison and four logical operators. You can access
+          them through the <samp>TEST</samp> menu, which has two submenus,
+          <samp>TEST</samp> and <samp>LOGIC</samp>. The submenus contain
+          comparison and logical operators, respectively. The table below
+          displays each operator, their name, and an example of each:
+        </p>
         <div class="table-container">
           <table>
-            <caption><b>Table.</b> TI-BASIC comparison and logical operators
+            <caption>
+              <b>Table.</b>
+              TI-BASIC comparison and logical operators
             </caption>
             <tr>
               <th>Type</th>
@@ -321,18 +399,20 @@
             </tr>
           </table>
         </div>
-        <p>TI-BASIC doesn't have a designated boolean data type; instead, it
-          uses numbers to represent truth values. All positive and negative
-          numbers are considered <em>true</em>, and the number zero is
-          <em>false</em>.
+        <p>
+          TI-BASIC doesn't have a designated boolean data type; instead, it uses
+          numbers to represent truth values. All positive and negative numbers
+          are considered <em>true</em>, and the number zero is <em>false</em>.
         </p>
         <p><b>For example, the following code:</b></p>
+        <!-- prettier-ignore -->
         <code class="code-block">:Disp 1 and 1
           :Disp 1 and 0
           :Disp 42 and 43
           :Disp 42 and 0
         </code>
         <p><b>Gives the following output:</b></p>
+        <!-- prettier-ignore -->
         <samp class="samp-block">0
           1
           0
@@ -343,35 +423,48 @@
         <header>
           <h2>Conditionals</h2>
         </header>
-        <p>Conditionals are one of the ways to change the control flow of your
+        <p>
+          Conditionals are one of the ways to change the control flow of your
           programs. TI-BASIC has two types of conditionals, if-then(-else)
-          constructs and the <code>IS>(</code> and <code>DS&lt;(</code>
-          commands. This section takes a look at each of them.</p>
-        <p>If-then constructs, also known as "if statements," are the simplest
+          constructs and the <code>IS>(</code> and
+          <code>DS&lt;(</code> commands. This section takes a look at each of
+          them.
+        </p>
+        <p>
+          If-then constructs, also known as "if statements," are the simplest
           type of conditional, and almost every programming language has them.
           These conditionals run a specified series of statements if a given
-          condition is true.</p>
+          condition is true.
+        </p>
         <p><b>In TI-BASIC, if-then constructs have the following syntax:</b></p>
+        <!-- prettier-ignore -->
         <code class="code-block">:If <em>condition</em>
           :Then
           :<em>…Code to run if true</em>
           :End
           :<em>…Rest of program</em>
         </code>
-        <p><b>You can exclude the <code>Then</code> and <code>End</code>
-            commands if your if-then construct only has one
-            statement—unfortunately, this doesn't work with if-then-else
-            constructs.</b></p>
+        <p>
+          <b
+            >You can exclude the <code>Then</code> and <code>End</code> commands
+            if your if-then construct only has one statement—unfortunately, this
+            doesn't work with if-then-else constructs.</b
+          >
+        </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:If <em>condition</em>
           :<em>…Single statement to execute if true</em>
           :<em>…Rest of program</em>
         </code>
-        <p>Like most programming languages, TI-BASIC also has an
+        <p>
+          Like most programming languages, TI-BASIC also has an
           <code>Else</code> command, allowing you to create if-then-else
           constructs—also known as <em>if...else statements</em>.
         </p>
-        <p><b>In TI-BASIC, If-then-else contructs have the following syntax:</b>
+        <p>
+          <b>In TI-BASIC, If-then-else contructs have the following syntax:</b>
         </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:If <em>condition</em>
           :Then
           :<em>…Code to run if true</em>
@@ -380,31 +473,46 @@
           :End
           :<em>…Rest of program</em>
         </code>
-        <p>The <code>IS>(</code> and <code>DS&lt;(</code> commands take two
-          arguments—neither of which can be complex numbers:</p>
+        <p>
+          The <code>IS>(</code> and <code>DS&lt;(</code> commands take two
+          arguments—neither of which can be complex numbers:
+        </p>
         <ol>
-          <li>A number variable (<code>A</code>−<code>Z</code> or
-            <code>θ</code>)
+          <li>
+            A number variable (<code>A</code>−<code>Z</code> or <code>θ</code>)
           </li>
           <li>A number, a number variable, or an expression</li>
         </ol>
-        <p>The <code>IS>(</code> command <em>increments</em> the variable by one
+        <p>
+          The <code>IS>(</code> command <em>increments</em> the variable by one
           and compares it to the second argument. If it's <em>less than</em> the
           second variable, then the following line of code runs—otherwise, it's
-          skipped. </p>
-        <p><b>Here's an example of the <code>IS>(</code> command—this program
-            should print "1 IS LESS THAN 2":</b></p>
+          skipped.
+        </p>
+        <p>
+          <b
+            >Here's an example of the <code>IS>(</code> command—this program
+            should print "1 IS LESS THAN 2":</b
+          >
+        </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:0→N
           :IS>(N,2)
           :Disp "1 IS LESS THAN 2"
         </code>
-        <p>On the other hand, the <code>DS&lt;(</code> command
+        <p>
+          On the other hand, the <code>DS&lt;(</code> command
           <em>decrements</em> the variable and checks if its value is
           <em>greater</em> than the second argument. If its greater than the
           second argument, then the following line of code runs.
         </p>
-        <p><b>Here's an example of the <code>DS&lt;(</code> command—this program
-            should print "1 IS MORE THAN 0":</b></p>
+        <p>
+          <b
+            >Here's an example of the <code>DS&lt;(</code> command—this program
+            should print "1 IS MORE THAN 0":</b
+          >
+        </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:0→N
           :DS&lt;(N,2)
           :Disp "1 IS MORE THAN 0"
@@ -414,24 +522,30 @@
         <header>
           <h2>For-Loops</h2>
         </header>
-        <p>For-loops execute a series of statements for a given number of times.
+        <p>
+          For-loops execute a series of statements for a given number of times.
           For-loops in TI-BASIC use the <code>For(</code> command, which takes
-          three or four arguments:</p>
+          three or four arguments:
+        </p>
         <ol>
           <li>A loop counter variable</li>
           <li>An initial value for the loop counter</li>
           <li>A maximum value of the loop counter</li>
           <li>(Optional) Step size (1, by default).</li>
         </ol>
-        <p>The loop counter variable starts at the initial value and increments
+        <p>
+          The loop counter variable starts at the initial value and increments
           by the step size at the beginning of each iteration. Once the loop
-          counter reaches the maximum value, the loop ends.</p>
+          counter reaches the maximum value, the loop ends.
+        </p>
         <p><b>Here's an example of a for-loop:</b></p>
+        <!-- prettier-ignore -->
         <code class="code-block">:For(I,1,5)
           :Disp I
           :End
         </code>
         <p><b>The code above should give the following output:</b></p>
+        <!-- prettier-ignore -->
         <samp class="samp-block">1
           2
           3
@@ -443,17 +557,22 @@
         <header>
           <h2>While and Repeat-Loops</h2>
         </header>
-        <p>While-loops run a specified series of statements while a given
+        <p>
+          While-loops run a specified series of statements while a given
           condition is true. While-loops in TI-BASIC have the following syntax:
         </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:While <em>condition</em>
           :<em>…Code to run while true</em>
           :End
           :<em>…Rest of program</em>
         </code>
-        <p>Repeat-loops are similar to while-loops, except they run until their
+        <p>
+          Repeat-loops are similar to while-loops, except they run until their
           condition becomes <em>false</em>. Repeat-loops have the following
-          syntax: </p>
+          syntax:
+        </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:Repeat <em>condition</em>
           :<em>…Code to run while false</em>
           :End
@@ -464,34 +583,52 @@
         <header>
           <h2>Variable Scope and Deleting Variables</h2>
         </header>
-        <p>All variables in TI-BASIC have global scope, meaning that they're
+        <p>
+          All variables in TI-BASIC have global scope, meaning that they're
           accessible throughout the entire program. They also stay in memory
           even <em>after</em> the program ends. To prevent variables from taking
           too much memory, delete them using the <code>DelVar</code> command
-          followed by the variable's name.</p>
-        <p><b>Here are some examples of the <code>Delvar</code> command:</b></p>
+          followed by the variable's name.
+        </p>
+        <p>
+          <b>Here are some examples of the <code>Delvar</code> command:</b>
+        </p>
+        <!-- prettier-ignore -->
         <code class="code-block">:DelVar N
           :DelVar L<sub>1</sub>
           :DelVar [A]
           :DelVar Str1
         </code>
-        <p><b>To save even more memory, you can condense the above code into a
-            single statement</b></p>
-        <code
-            class="code-block">:DelVar NDelVar L<sub>1</sub>DelVar [A]DelVar Str1</code>
+        <p>
+          <b
+            >To save even more memory, you can condense the above code into a
+            single statement</b
+          >
+        </p>
+        <code class="code-block"
+          >:DelVar NDelVar L<sub>1</sub>DelVar [A]DelVar Str1</code
+        >
         <aside>
-          <p>It's worth mentioning that when using lists, you might wish to
-            clear their values instead of completely deleting them—especially if
+          <p>
+            It's worth mentioning that when using lists, you might wish to clear
+            their values instead of completely deleting them—especially if
             you're using one of the built-in list variables. To do so, use the
             <code>ClrList</code> command found in the <samp>STAT</samp> menu.
             This command has the same syntax as <code>DelVar</code>.
           </p>
-          <p><b>Here's an example of the <code>ClrList</code> command:</b></p>
+          <p>
+            <b>Here's an example of the <code>ClrList</code> command:</b>
+          </p>
           <code class="code-block">:ClrList L<sub>1</sub></code>
-          <p><b>To clear multiple lists, place commas between the names of the
-              lists you wish to clear:</b></p>
-          <code
-              class="code-block">:ClrList L<sub>1</sub>,L<sub>2</sub>,L<sub>3</sub></code>
+          <p>
+            <b
+              >To clear multiple lists, place commas between the names of the
+              lists you wish to clear:</b
+            >
+          </p>
+          <code class="code-block"
+            >:ClrList L<sub>1</sub>,L<sub>2</sub>,L<sub>3</sub></code
+          >
         </aside>
       </section>
       <section id="references" class="main-section">
@@ -499,88 +636,113 @@
           <h2>References</h2>
         </header>
         <ol>
-          <li class="mla-citation"> "<cite>TI-BASIC 83</cite>."
-            <i>Wikipedia</i>. <a
-                href="https://en.wikipedia.org/wiki/TI-BASIC_83"
-                target="_blank">https://en.wikipedia.org/wiki/TI-BASIC_83</a>.
-            Accessed <time datetime="2022-05-13">13 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>TI-BASIC 83</cite>." <i>Wikipedia</i>.
+            <a href="https://en.wikipedia.org/wiki/TI-BASIC_83" target="_blank"
+              >https://en.wikipedia.org/wiki/TI-BASIC_83</a
+            >. Accessed <time datetime="2022-05-13">13 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>Why TI-BASIC</cite>." <i>TI-Basic
-              Developer</i>. <a href="http://tibasicdev.wikidot.com/whytibasic"
-                target="_blank"> http://tibasicdev.wikidot.com/whytibasic</a>.
-            Accessed <time datetime="2022-05-13">13 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>The Calculators</cite>." <i>TI-Basic
-              Developer</i>. <a href="http://tibasicdev.wikidot.com/thecalcs"
-                target="_blank">http://tibasicdev.wikidot.com/thecalcs</a>.
-            Accessed <time datetime="2022-05-13">13 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>Your First Program</cite>."
-            <i>TI-Basic Developer</i>. <a
-                href="http://tibasicdev.wikidot.com/sk:first-program"
-                target="_blank">http://tibasicdev.wikidot.com/sk:first-program</a>.
-            Accessed <time datetime="2022-05-13">13 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>Why TI-BASIC</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/whytibasic" target="_blank">
+              http://tibasicdev.wikidot.com/whytibasic</a
+            >. Accessed <time datetime="2022-05-13">13 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>Data Types</cite>." <i>TI-Basic
-              Developer</i>. <a
-                href="http://tibasicdev.wikidot.com/sk:data-types"
-                target="_blank">http://tibasicdev.wikidot.com/sk:data-types</a>.
-            Accessed <time datetime="2022-05-17">17 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>Lists</cite>." <i>TI-Basic
-              Developer</i>. <a href="http://tibasicdev.wikidot.com/sk:lists"
-                target="_blank">http://tibasicdev.wikidot.com/sk:lists</a>.
-            Accessed <time datetime="2022-05-17">17 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>Matrices and Their Commands</cite>."
-            <i>TI-Basic Developer</i>. <a
-                href="http://tibasicdev.wikidot.com/matrices"
-                target="_blank">http://tibasicdev.wikidot.com/matrices</a>.
-            Accessed <time datetime="2022-05-17">17 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>The Calculators</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/thecalcs" target="_blank"
+              >http://tibasicdev.wikidot.com/thecalcs</a
+            >. Accessed <time datetime="2022-05-13">13 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>Pictures and GDBs</cite>."
-            <i>TI-Basic Developer</i>. <a
-                href="http://tibasicdev.wikidot.com/pictures"
-                target="_blank">http://tibasicdev.wikidot.com/pictures</a>.
-            Accessed <time datetime="2022-05-17">17 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>Your First Program</cite>." <i>TI-Basic Developer</i>.
+            <a
+              href="http://tibasicdev.wikidot.com/sk:first-program"
+              target="_blank"
+              >http://tibasicdev.wikidot.com/sk:first-program</a
+            >. Accessed <time datetime="2022-05-13">13 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>TI Codes: TI-84 Plus
-              Technology</cite>." <i>Texas Instruments</i>. <a
-                href="https://education.ti.com/en/activities/ti-codes/84/10-minutes"
-                target="_blank">https://education.ti.com/en/activities/ti-codes/84/10-minutes</a>.
-            Accessed <time datetime="2022-05-16">16 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>The Basics of Variables</cite>."
-            <i>TI-Basic Developer</i>. <a
-                href="http://tibasicdev.wikidot.com/sk:variables"
-                target="_blank">http://tibasicdev.wikidot.com/sk:variables</a>.
-            Accessed <time datetime="2022-05-16">16 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>Data Types</cite>." <i>TI-Basic Developer</i>.
+            <a
+              href="http://tibasicdev.wikidot.com/sk:data-types"
+              target="_blank"
+              >http://tibasicdev.wikidot.com/sk:data-types</a
+            >. Accessed <time datetime="2022-05-17">17 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>Java Operators</cite>."
-            <i>W3Schools</i>. <a
-                href="https://www.w3schools.com/java/java_operators.asp"
-                target="_blank">https://www.w3schools.com/java/java_operators.asp</a>.
-            Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>Lists</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/sk:lists" target="_blank"
+              >http://tibasicdev.wikidot.com/sk:lists</a
+            >. Accessed <time datetime="2022-05-17">17 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>Conditional (computer
-              programming)</cite>." <i>Wikipedia</i>. <a
-                href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)"
-                target="_blank">https://en.wikipedia.org/wiki/Conditional_(computer_programming)</a>.
-            Accessed <time datetime="2022-05-18">18 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>The IS>( Command</cite>." <i>TI-Basic
-              Developer</i>. <a href="http://tibasicdev.wikidot.com/is"
-                target="_blank">http://tibasicdev.wikidot.com/is</a>. Accessed
-            <time datetime="2022-05-18">18 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>Matrices and Their Commands</cite>."
+            <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/matrices" target="_blank"
+              >http://tibasicdev.wikidot.com/matrices</a
+            >. Accessed <time datetime="2022-05-17">17 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>The DS&lt;( Command</cite>."
-            <i>TI-Basic Developer</i>. <a
-                href="http://tibasicdev.wikidot.com/ds"
-                target="_blank">http://tibasicdev.wikidot.com/ds</a>. Accessed
-            <time datetime="2022-05-18">18 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>Pictures and GDBs</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/pictures" target="_blank"
+              >http://tibasicdev.wikidot.com/pictures</a
+            >. Accessed <time datetime="2022-05-17">17 May 2022</time>.
           </li>
-          <li class="mla-citation"> "<cite>Loops</cite>." <i>TI-Basic
-              Developer</i>. <a href="http://tibasicdev.wikidot.com/sk:loops"
-                target="_blank">http://tibasicdev.wikidot.com/sk:loops</a>.
-            Accessed <time datetime="2022-05-18">18 May 2022</time>.</li>
-          <li class="mla-citation"> "<cite>For loop</cite>." <i>Wikipedia</i>.
-            <a href="https://en.wikipedia.org/wiki/For_loop"
-                target="_blank">https://en.wikipedia.org/wiki/For_loop</a>.
-            Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          <li class="mla-citation">
+            "<cite>TI Codes: TI-84 Plus Technology</cite>."
+            <i>Texas Instruments</i>.
+            <a
+              href="https://education.ti.com/en/activities/ti-codes/84/10-minutes"
+              target="_blank"
+              >https://education.ti.com/en/activities/ti-codes/84/10-minutes</a
+            >. Accessed <time datetime="2022-05-16">16 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>The Basics of Variables</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/sk:variables" target="_blank"
+              >http://tibasicdev.wikidot.com/sk:variables</a
+            >. Accessed <time datetime="2022-05-16">16 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>Java Operators</cite>." <i>W3Schools</i>.
+            <a
+              href="https://www.w3schools.com/java/java_operators.asp"
+              target="_blank"
+              >https://www.w3schools.com/java/java_operators.asp</a
+            >. Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>Conditional (computer programming)</cite>." <i>Wikipedia</i>.
+            <a
+              href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)"
+              target="_blank"
+              >https://en.wikipedia.org/wiki/Conditional_(computer_programming)</a
+            >. Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>The IS>( Command</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/is" target="_blank"
+              >http://tibasicdev.wikidot.com/is</a
+            >. Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>The DS&lt;( Command</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/ds" target="_blank"
+              >http://tibasicdev.wikidot.com/ds</a
+            >. Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>Loops</cite>." <i>TI-Basic Developer</i>.
+            <a href="http://tibasicdev.wikidot.com/sk:loops" target="_blank"
+              >http://tibasicdev.wikidot.com/sk:loops</a
+            >. Accessed <time datetime="2022-05-18">18 May 2022</time>.
+          </li>
+          <li class="mla-citation">
+            "<cite>For loop</cite>." <i>Wikipedia</i>.
+            <a href="https://en.wikipedia.org/wiki/For_loop" target="_blank"
+              >https://en.wikipedia.org/wiki/For_loop</a
+            >. Accessed <time datetime="2022-05-18">18 May 2022</time>.
           </li>
         </ol>
       </section>
